@@ -5,7 +5,7 @@ import Cookies from 'universal-cookie';
 
 import { ChannelListContainer, ChannelContainer, Auth } from './components';
 
-import 'stream-chat-react/dist/css/index.css';
+import 'stream-chat-react/dist/css/v2/index.css';
 import './App.css';
 
 const cookies = new Cookies();
@@ -36,7 +36,7 @@ const App = () => {
 
     return (
         <div className="app__wrapper">
-            <Chat client={client} theme="team dark">
+            <Chat client={client} theme="messaging light">
                 <ChannelListContainer 
                     isCreating={isCreating}
                     setIsCreating={setIsCreating}

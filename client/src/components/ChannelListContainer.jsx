@@ -84,7 +84,7 @@ const ChannelListContent = ({ isCreating, setIsCreating, setCreateType, setIsEdi
                         />
                     )}
                 />
-                <ChannelList 
+                <ChannelList
                     filters={filters}
                     channelRenderFilterFn={customChannelMessagingFilter}
                     List={(listProps) => (
